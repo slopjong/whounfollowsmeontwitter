@@ -15,9 +15,9 @@ git clone git://github.com/slopjong/whounfollowsmeontwitter.git ~/crons/whounfol
 
 Now it's configuration time. Rename `config.sample.php` to `config.php` and define
 
-* *to_mail*, the email address to which the notification should be sent to
-* *from_mail*, the email address that you'd like to see as the sender
-* *screen_name*, your twitter user name
+* **to_mail**, the email address to which the notification should be sent to
+* **from_mail**, the email address that you'd like to see as the sender
+* **screen_name**, your twitter user name
 
 As the last step run `crontab -e` and add the following line.
 
